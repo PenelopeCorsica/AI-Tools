@@ -1,0 +1,16 @@
+# Tensor Flow compiled using AVX instructions. If there is an error message to this effect, implement the following
+a) pip install intel-tensorflow
+b) pip install tensorflow tensorflow-cpu
+c) It is possible that there will be error messages as a result of compatability between updates and editions,
+which pip does not take into account.
+
+# pixelation is a GPU requirement, devised by NVIDIA, and multiple cores are now placed on a chip
+a) hundreds or thousands of parallel cores and threads run on the chip for AI/ML workloads
+b) cycles of batches run simultaneously and optimise performance (the 'single clock cycle')
+c) TPU is a tensor processing unit, specialised parallel processors built for AI/ML
+d) V-RAM holds the model weights simultaneously, TPU take coding functions like RELU with silicone acceleration
+with certain mathematical functions in AI, computations created run even faster
+
+# weights are multiplied by the values of the function and applied to every single neuron: enter GPU
+# cuda is by NVIDIA and runs from the device GPU into the NN and the core - which core is assigned to compute?
+This is the function of cuda. 
