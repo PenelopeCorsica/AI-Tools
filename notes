@@ -14,3 +14,5 @@ with certain mathematical functions in AI, computations created run even faster
 # weights are multiplied by the values of the function and applied to every single neuron: enter GPU
 # cuda is by NVIDIA and runs from the device GPU into the NN and the core - which core is assigned to compute?
 This is the function of cuda. 
+
+
